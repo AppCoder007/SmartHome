@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.32"
+        android:gravity="center"
+        android:text="Bedroom 2"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="281dp"
+        android:src="@drawable/light_bulb"></ImageView>
+
+    <ToggleButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:paddingBottom="20dip"
+        android:paddingLeft="40dip"
+        android:paddingRight="40dip"
+        android:paddingTop="20dip"
+        android:text="ToggleButton"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.32"
+        android:text="Brightness"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="3"
+        android:layout_weight="0.28" />
+
+</LinearLayout>
